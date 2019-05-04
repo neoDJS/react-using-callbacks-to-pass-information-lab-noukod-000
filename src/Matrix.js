@@ -12,7 +12,7 @@ export default class Matrix extends Component {
     }
   }
 
-  setColor = hexColor =>{
+  setColor = (hexColor) =>{
     this.setState({
       selectedColor: hexColor
     })
